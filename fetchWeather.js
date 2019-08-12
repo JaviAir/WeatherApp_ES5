@@ -12,7 +12,7 @@ function searchWeather() {
     }
     let http = new XMLHttpRequest();
     let apiKey = '8fa75fdfa6f0f8bba3a2439f243777c1';
-    let url = 'http://api.openweathermap.org/data/2.5/weather?q=' + cityName + '&units=metric&APPID=' + apiKey;
+    let url = 'https://api.openweathermap.org/data/2.5/weather?q=' + cityName + '&units=metric&APPID=' + apiKey;
     let method = 'GET';
 
     http.open(method, url);
