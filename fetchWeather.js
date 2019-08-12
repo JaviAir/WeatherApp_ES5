@@ -29,7 +29,6 @@ function searchWeather() {
     http.send();
 }
 
-
 function updateWeather(weatherData) {
     weatherCity.textContent = weatherData.cityName;
     weatherDescription.textContent = weatherData.description;
